@@ -85,6 +85,6 @@ public enum OAuth2Error {
     }
 
     public String getErrorString() {
-        return errorString;
+        return this.errorString;
     }
 }
